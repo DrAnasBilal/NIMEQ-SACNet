@@ -1,0 +1,88 @@
+{
+  "created_utc": "2026-10-25T09:40:53Z",
+  "purpose": "Existing new-experiment records collected for code and results review",
+  "current_source_root": "F:\\CIBM\\NIMEQ_SACNet_Experiment_Code\\NIMEQ_SACNet_Experiment_Code",
+  "matlab": "25.1.0.2943329 (R2025a)",
+  "release": "2025a",
+  "all_export_verifications_passed": true,
+  "source_images_rehashed": false,
+  "deep_cv_verification_performed": false,
+  "original_files_modified": false,
+  "models_trained": false,
+  "runs": [
+    {
+      "run": "d7c41",
+      "original_folder": "C:\\Research\\NIMEQ_SACNet_Experiment_Code\\NIMEQ_SACNet_Experiment_Code\\NIMEQ_SACNet_Experiment_Code\\results\\d7c41",
+      "export_folder": "runs/d7c41",
+      "profile": "workstation",
+      "seed": 41,
+      "tasks": [
+        "DR7_binary"
+      ],
+      "spectral_normalization": false,
+      "legacy_baselines": false,
+      "cnn_epochs": 10,
+      "final_sac_epochs": 30,
+      "cv_sac_epochs": 3,
+      "cv_folds": 3,
+      "population": 4,
+      "search_iterations": 5,
+      "table4_trials": 10,
+      "verification_passed": true,
+      "verification_checks": 171,
+      "verification_failed_checks": 0,
+      "export_verification_folder": "runs/d7c41/verification/tp0b7bbf0c_f8bd_4c0a_ad49_d5b1d6e17977",
+      "verification_error": ""
+    },
+    {
+      "run": "d7m41",
+      "original_folder": "C:\\Research\\NIMEQ_SACNet_Experiment_Code\\NIMEQ_SACNet_Experiment_Code\\NIMEQ_SACNet_Experiment_Code\\results\\d7m41",
+      "export_folder": "runs/d7m41",
+      "profile": "workstation",
+      "seed": 41,
+      "tasks": [
+        "DR7_5class",
+        "DR7_7class"
+      ],
+      "spectral_normalization": false,
+      "legacy_baselines": false,
+      "cnn_epochs": 10,
+      "final_sac_epochs": 30,
+      "cv_sac_epochs": 3,
+      "cv_folds": 3,
+      "population": 4,
+      "search_iterations": 5,
+      "table4_trials": 10,
+      "verification_passed": true,
+      "verification_checks": 341,
+      "verification_failed_checks": 0,
+      "export_verification_folder": "runs/d7m41/verification/tp896270ff_6eef_4844_bb04_1d290ea9e516",
+      "verification_error": ""
+    },
+    {
+      "run": "idw41",
+      "original_folder": "F:\\CIBM\\NIMEQ_SACNet_Experiment_Code\\NIMEQ_SACNet_Experiment_Code\\results\\idw41",
+      "export_folder": "runs/idw41",
+      "profile": "workstation",
+      "seed": 41,
+      "tasks": [
+        "IDRiD_binary",
+        "IDRiD_5class"
+      ],
+      "spectral_normalization": false,
+      "legacy_baselines": false,
+      "cnn_epochs": 10,
+      "final_sac_epochs": 30,
+      "cv_sac_epochs": 3,
+      "cv_folds": 3,
+      "population": 4,
+      "search_iterations": 5,
+      "table4_trials": 10,
+      "verification_passed": true,
+      "verification_checks": 341,
+      "verification_failed_checks": 0,
+      "export_verification_folder": "runs/idw41/verification/tp7ce44e9e_273a_4f1f_9961_83e8bf98f4e8",
+      "verification_error": ""
+    }
+  ]
+}
